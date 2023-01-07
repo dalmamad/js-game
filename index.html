@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./shooter.css">
+        
+    </head>
+    <body>
+        <div id="main-container" >
+
+            <div id="dark-layer" style="width: 100%;
+            height: 100%; background-color: black;opacity: 0%; position: absolute;z-index: 3;"></div>
+
+            <img id="start" src="./images/start.png" style="display: none; width: 100%; max-height: 100%; margin: 0;object-fit: contain;">
+
+            <div id="story">
+                <div id="story-background"></div>
+                <div id="story-container">
+                    <p id="story-text">Earth is on the brink of extintion once more.
+                            it's all up to you now...
+                            defeat this dangrous kind of enemy...
+                            just kidding, take it easy...</p>
+                </div>
+            </div>
+
+            <div id="gameplay">
+                <div id="band">
+                    <img id="life" src="./images/life3.png" class="band">
+                    <p id="score"> score: 0 </p>
+                </div>
+                <div id="weapons" ></div>
+                <div id="playground-container">
+                    <img id="fighter" src="./images/fighter.png">
+
+                    <!-- <div id="test">.</div> -->
+
+                    <img id="muzzle-flash" src="./images/muzzle-flash.png">
+                    <p id="tutorial">It's simple<br>You have 3 life <br> If you miss 10 bullets or 1 enemy you'll lose a life <br> GOOD LUCK</p>
+                    <img id="pause"  style="display: none;" src="./images/pause.png">
+                    <img id="playagain"  style="display: none;" src="./images/playagain.png">
+                    <p id="score2" style="display: none;"></p>
+                </div>
+            </div>
+
+            <div id="gameover" style="display: none;" >GAME OVER</div>
+
+         </div>
+
+        <script src="./shooter.js">
+        </script>
+
+    </body>
+</html>
